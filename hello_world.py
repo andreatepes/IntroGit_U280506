@@ -9,3 +9,5 @@ def greet(name):
 ## not when it is imported as a module from another file.
 if __name__ == "__main__":
     print(greet("World")) #Call the greet function and print the result
+    print(farewell("World")) #Call the farewell function and print the result
+    
